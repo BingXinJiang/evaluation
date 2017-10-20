@@ -496,7 +496,7 @@ class UserInfo extends React.Component{
                     {/**管理层次*/}
                     <FormCell select selectPos="after">
                         <CellHeader>
-                            <Label>所属行业</Label>
+                            <Label>管理层次</Label>
                         </CellHeader>
                         <CellBody>
                             <Select onChange={this.input.bind(this,'position')} data={Positions} />
