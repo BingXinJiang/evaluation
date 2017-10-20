@@ -61,6 +61,10 @@ export default class Leader extends React.Component{
     }
 
     componentDidMount(){
+
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+
         let questions = this.props.location.query;
 
         let scores = [0,0,0,0,0,0,0,0];

@@ -529,6 +529,8 @@ export default class Commit extends React.Component{
 
     componentDidMount(){
         this.questions = this.props.location.query;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
 
     getUserInfo(user){
